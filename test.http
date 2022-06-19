@@ -1,0 +1,30 @@
+
+@baseUrl = http://localhost:3000/api
+# Categories
+# @name getAllCategories
+GET {{baseUrl}}/categories
+
+###
+# @name addNewCategory
+POST {{baseUrl}}/categories
+Content-Type: application/json
+
+{
+    "name": "Laptop"
+}
+
+###
+# Products
+# @name getAllProduct
+GET {{baseUrl}}/products
+
+###
+# @name addNewProduct
+POST {{baseUrl}}/products
+Content-Type: application/json
+
+{
+    "name": "IPHONE 11",
+    "categoryId": 1,
+    "salePrice": 35000000
+}
