@@ -11,10 +11,10 @@
     "author": "Quoc Bao",
     "license": "MIT",
     "dependencies": {
+        "faker": "^6.6.6",
         "json-server": "^0.17.0"
     },
     "devDependencies": {
-        "faker": "5.5.0",
         "nodemon": "^2.0.16"
     }
 }
